@@ -1,25 +1,22 @@
 # TroopNet API
 
-Backend API designed to streamline unit logistics & attendance tracking, originally conceptualized for my Unit for which the original images and details I have lost. This project serves as a way to showcase what that project acomplished as well as potentially be useful to other units or users that stumble upon this to use within their own teams.
+A modernized backend API designed to streamline unit logistics and attendance tracking. Originally conceptualized and deployed for the 38 Signal Regiment, this project serves as a rebuilt technical showcase of the original internal tool. It demonstrates practical backend architecture and provides an open-source framework for other units or teams to adapt for their own personnel management.
 
-## Stack
+## Tech Stack
 * **Framework:** Python / FastAPI
-* **Database:** SQLite / SQLAlchemy
-* **Server:** Uvicorn(*)
+* **Database:** SQLite / SQLAlchemy (ORM)
+* **Server:** Uvicorn
 
-## Status: In Development
-Environment & Dependency setup
-Database Engine initialization
-Core DB models (mbrs)
-CRUD API endpoints
-Dockerization
+## Current Status: In Development
+- [x] Environment & Dependency setup
+- [x] Database Engine initialization
+- [x] Core DB models (Personnel)
+- [ ] CRUD API endpoints
+- [ ] Dockerization
 
-## Setup
+## Local Setup
 To run this project locally:
 1. Clone the repository.
 2. Create a virtual environment: `python -m venv .venv`
 3. Install dependencies: `pip install -r requirements.txt`
 4. Run the server: `uvicorn main:app --reload`
-
-
-**WIP**
