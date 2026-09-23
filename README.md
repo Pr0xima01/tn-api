@@ -1,6 +1,6 @@
 # TroopNet API
 
-Backend API designed to streamline unit logistics & attendance tracking, originally conceptualized for my Unit for which the original images and details I have lost. This project serves as a way to showcase what that project meant to acomplish as well as potentially be useful to other units or users that stumble upon this.
+Backend API designed to streamline unit logistics & attendance tracking, originally conceptualized for my Unit for which the original images and details I have lost. This project serves as a way to showcase what that project acomplished as well as potentially be useful to other units or users that stumble upon this to use within their own teams.
 
 ## Stack
 * **Framework:** Python / FastAPI
